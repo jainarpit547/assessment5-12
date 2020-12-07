@@ -1,0 +1,60 @@
+.container{
+    padding: 7rem;
+}
+
+h2{
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 1.8rem;
+}
+
+.filterSection{
+    width: 12rem;
+}
+
+label{
+    width: 100%;
+    display: block;
+}
+
+.checkBox{
+    margin: 0.8rem 0;
+    margin-right: 0.6rem;
+}
+
+.filterSection p{
+    margin: 1.5rem 0;
+}
+
+.mainContent{
+    display: flex;
+}
+
+.orderSection{
+    width: 100%;
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+td,th {
+    padding: 0.9rem;
+    text-align: left;
+}
+
+tbody tr{
+    background-color: #fff;
+    border-bottom: 6px solid #f6f7fb;
+}
+
+.light{
+    color: #8c8c8c;
+}
+
+.lightP{
+    font-size: 0.8rem;
+    margin-top: 3px;
+    font-weight: 700;
+}

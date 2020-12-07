@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products</title>
+    <link rel="stylesheet" href="./CSS/all.css">
+    <link rel="stylesheet" href="./CSS/product.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+
+<body>
+    <div class="header">
+        <div class="logo">
+            <img src="https://edu-web-fundamentals.web.app/static/media/logo.58169365.png" alt="logo">
+            <h1>Kafene</h1>
+        </div>
+        <div class="navLinks">
+            <a href="./order.html" class="navLink">orders</a>
+            <a href="./product.html" class="navLink activeNav">products</a>
+            <a href="./user.html" class="navLink">users</a>
+        </div>
+        <div class="logOut" onclick="logout()">Logout</div>
+    </div>
+    <div class="container">
+        <h2>Products</h2>
+        <div class="mainContent">
+            <div class="filterSection">
+                <h3>Filters</h3>
+                <p>Count: <span id="count">0</span> </p>
+
+                <label><input class="checkBox" type="checkbox" checked id="expired"> Expired </label>
+                <label><input class="checkBox" type="checkbox" checked id="lowStock"> Low Stock</label>
+            </div>
+            <div class="orderSection">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>ID</th>
+                            <th>Product Name </th>
+                            <th>Product Brand</th>
+                            <th>Expiry Date</th>
+                            <th>Unit Price</th>
+                            <th>Stock</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <script src="./JS/product.js"></script>
+</body>
+
+</html>
